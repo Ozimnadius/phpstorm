@@ -1,0 +1,16 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="isCompactMenus" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="pristineConfig" value="false" />
+    <option name="treeFontSizeEnabled" value="true" />
+    <option name="treeFontSize" value="16" />
+    <option name="tabFontSize" value="16" />
+    <option name="settingsSelectedTab" value="3" />
+    <option name="accentColor" value="246e96" />
+    <option name="secondAccentColor" value="246e96" />
+    <option name="selectedTheme" value="ONE_DARK" />
+    <option name="userId" value="673818b8:16fa871141d:-8000" />
+    <option name="version" value="4.5.2" />
+  </component>
+</application>

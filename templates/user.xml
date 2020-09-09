@@ -1,0 +1,102 @@
+<templateSet group="user">
+  <template name="**" value="/*-----------------SECTION-$END$--------------------*/" description="**" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="/" value="&lt;? $END$ ?&gt;" description="&lt;??&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="log" value="console.log($END$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="i" value="@include $END$;" description="@include" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="'" value="&lt;!-- $NAME$ --&gt;&#10;    $END$&#10;&lt;!-- END $NAME$ --&gt;" description="&lt;!--  --&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="//" value="/* $NAME$ */&#10;$END$&#10;/* END $NAME$ */" description="/* */" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="''" value="/* $NAME$ */&#10;    $END$&#10;/* END $NAME$ */" description="/**/" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ism" value="@include sm-block{&#10;    $END$        &#10;}" description="include sm-block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ilg" value="@include lg-block{&#10;    $END$        &#10;}" description="include lg-block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="imd" value="@include md-block{&#10;    $END$        &#10;}" description="include md-block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ixs" value="@include xs-block{&#10;    $END$        &#10;}" description="include xs-block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="btn" value="button(type='button')" description="button(type='button')" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="ixlg" value="@include xlg-block{&#10;    $END$        &#10;}" description="include lg-block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@lg" value="@media (max-width: 1199.98px){&#10;   $END$ &#10;}" description="media 1200" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@md" value="@media (max-width: 991.98px){&#10;   $END$ &#10;}" description="media 992" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@sm" value="@media (max-width: 767.98px){&#10;   $END$ &#10;}" description="media 768" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@xs" value="@media (max-width: 575.98px){&#10;   $END$ &#10;}" description="media 576" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="@m" value="@media (max-width: $END$px){&#10;   &#10;}" description="media" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
